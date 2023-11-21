@@ -60,15 +60,52 @@ header > img{
     position: relative;
 }
 
-.discount{
+.item-data-flex{
+    display: flex;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
+    gap: 5px;
+}
+
+.discount, .item-env{
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
 }
 
 .item-env{
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
+    background-color: green;
+}
+
+.brand{
+    font-size: 13px;
+}
+
+.brand, .item-env{
+    text-transform: capitalize;
+}
+
+.item-name{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.price::after, .old-price::after{
+    content: " € ";
 }
 
 
