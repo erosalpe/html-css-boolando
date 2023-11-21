@@ -59,76 +59,49 @@ header > img{
     height: 100%;
     width: 100%;
     display: block;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
     opacity: 0;
 }
 
 .overlay-1{
     background-image: url(../img/1.webp);
-    object-fit: contain;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
 }
 
 .overlay-2{
     background-image: url(../img/2.webp);
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
 }
 
 .overlay-3{
     background-image: url(../img/3.webp);
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
 }
 
 .overlay-4{
     background-image: url(../img/4.webp);
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
 }
+
 
 .overlay-5{
     background-image: url(../img/5.webp);
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
 }
+
 
 .overlay-6{
     background-image: url(../img/6.webp);
-    position: relative;
-    top: 0;
-    bottom: 0;
-    right:0;
-    left: 0;
+}
+
+
+.overlay-1,
+.overlay-2, 
+.overlay-3, 
+.overlay-4,
+.overlay-5, 
+.overlay-6{
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .shop-item img:hover{
     opacity: 1;
 }
-
-
-
-
 
 
 .item-data-flex{
