@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6900;
+    fill: white;
+    text-transform: capitalize;
+    padding-block: 10px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header > img{
+    width: 10%;
+    display: block;
+}
+
+.nav-flex ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
