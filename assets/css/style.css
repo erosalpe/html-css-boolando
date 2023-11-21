@@ -111,9 +111,41 @@ header > img{
     content: " € ";
 }
 
+
+footer{
+    background-color: #1a1a1a;
+    padding-block: 20px;
+    margin-top: 50px;
+}
+
 .footer-flex{
     display: flex;
     width: 80%;
     margin: 0px auto;
+    justify-content: space-between;
 }
 
+.footer-r{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.srl-info{
+    display: flex;
+    gap: 30px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-l{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    fill: white;
+}
