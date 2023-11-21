@@ -36,3 +36,39 @@ header > img{
     display: flex;
     gap: 10px;
 }
+
+
+.main-div-container{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.shop-card{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+    top: 100px;
+}
+
+.shop-item img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    bottom: 10%;
+}
+
+.item-env{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+
